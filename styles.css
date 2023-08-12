@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+.nav{
+	display:flex;
+	align-itms:center;
+	justify-content:space-between;
+	background-color:#6e072d;
+	color:white;
+	font-size:18px;
+}
+ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	display:flex;
+	align-itms:center;
+}
+li{
+	font-size:1.5em;
+	padding: 10px 20px;
+	border:2px solid #fff
+}
+li:hover{
+	background-color:#b90e4d;
+	cursor:pointer;
+}
